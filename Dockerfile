@@ -2,4 +2,5 @@ from node
 add . /source
 workdir /source
 run npm i
-cmd npm start
+run npm install --save material-ui axios react-tap-event-plugin
+cmd npm start --port 8000
