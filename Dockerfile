@@ -1,5 +1,5 @@
 from node
-add . /source
+add src/* /source
 workdir /source
 run npm i
 run npm install --save material-ui axios react-tap-event-plugin
