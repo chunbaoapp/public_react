@@ -11,7 +11,7 @@ import EditorInsertChart from 'material-ui/svg-icons/editor/insert-chart';
 import Checkbox from 'material-ui/Checkbox';
 import './App.css';
 import FontIcon from 'material-ui/FontIcon';
-var apiBaseUrl = "http://localhost:4000/api/";
+var apiBaseUrl = "http://localhost:8001/gui-api/";
 
 /*
 Module:superagent
@@ -22,7 +22,7 @@ export default class PastFiles extends Component {
   constructor(props){
     super(props);
     this.state={
-      role:'student',
+      role:'customer',
       filesPreview:[],
       previousfilesList:[],
       filesToBePrinted:[]

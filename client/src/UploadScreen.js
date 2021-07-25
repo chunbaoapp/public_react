@@ -18,7 +18,7 @@ import MenuItem from 'material-ui/MenuItem';
 import FontIcon from 'material-ui/FontIcon';
 import {blue500, red500, greenA200} from 'material-ui/styles/colors';
 
-var apiBaseUrl = "http://localhost:4000/api/";
+var apiBaseUrl = "http://localhost:8001/gui-api/";
 /*
 Module:Dropzone
 Dropzone is used for local file selection
@@ -34,7 +34,7 @@ class UploadScreen extends Component {
   constructor(props){
     super(props);
     this.state={
-      role:'student',
+      role:'customer',
       filesPreview:[],
       filesToBeSent:[],
       draweropen:false,
@@ -48,7 +48,7 @@ class UploadScreen extends Component {
     var printcount;
     //set upload limit based on user role
     if(this.props.role){
-      if(this.props.role == 'student'){
+      if(this.props.role == 'customer'){
         printcount = 5;
       }
       else if(this.props.role == 'teacher'){

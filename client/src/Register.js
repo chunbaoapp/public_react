@@ -20,7 +20,7 @@ class Register extends Component {
     console.log("nextProps",nextProps);
   }
   handleClick(event,role){
-    var apiBaseUrl = "http://localhost:4000/api/";
+    var apiBaseUrl = "http://localhost:8001/gui-api/";
     // console.log("values in register handler",role);
     var self = this;
     //To be done:check for empty values before hitting submit
@@ -62,13 +62,13 @@ class Register extends Component {
   render() {
     // console.log("props",this.props);
     var userhintText,userLabel;
-    if(this.props.role === "student"){
-      userhintText="Enter your Student Id";
-      userLabel="Student Id";
+    if(this.props.role === "customer"){
+      userhintText="Enter your Customer Id";
+      userLabel="customer Id";
     }
     else{
-      userhintText="Enter your Teacher Id";
-      userLabel="Teacher Id";
+      userhintText="Enter your Admin Id";
+      userLabel="Admin Id";
     }
     return (
       <div>
