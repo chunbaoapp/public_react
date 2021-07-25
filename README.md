@@ -1,24 +1,15 @@
-# A simple counter-App using [React.js](https://reactjs.org)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-> **This tiny application is like adding,removing,deleting, resetting products which reflects in the total number of products into our shopping cart.**
+For beginners like me to learn the concepts in [Redux](https://github.com/reactjs/redux)
 
-**This is a very basic app but useful to understand the React Components, states, Data Flow, parent to child etc. .**
+To run this example:
 
-## Live URL :-
+1. [Download this repo](https://github.com/jackielii/simplest-redux-example/archive/master.zip) or `git clone https://github.com/jackielii/simplest-redux-example.git`
+2. From the repo folder run:  
+   `npm install`
+3. `npm start`
+4. open [http://localhost:8000/](http://localhost:8000/) in the browser
 
-> [Counter App](https://obscure-waters-60500.herokuapp.com)
+And also head over to http://redux.js.org/ for some great documentation.
 
-**OR your can do the following to run in your local machine**
-
-## Scripts
-
-Install node modules
-
-#### `npm install`
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+There is also a [webpack](https://github.com/jackielii/simplest-redux-example/tree/webpack) and an [ES5](https://github.com/jackielii/simplest-redux-example/tree/es5) example.
